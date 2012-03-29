@@ -1,9 +1,9 @@
 DRIVER = hello
 
 ifneq ($(KERNELRELEASE),)
-    obj-m := $(DRIVER).o
+	obj-m := $(DRIVER).o
 else
-    PWD := $(shell pwd)
+	PWD := $(shell pwd)
 
 default:
 ifeq ($(strip $(KERNELDIR)),)
