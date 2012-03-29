@@ -10,9 +10,11 @@ change (enabling devtmpfs via menuconfig to avoid needing initramfs).  Building
 against a patched 3.0.y kernel should also work.
 
 Each chapter is broken into its own directory.  To build, use the provided
-Makefile in each directory and be sure to supply a KERNELDIR value that points
-to your local copy of the Linux 3.0 source where you have built a kernel (this
-last point, that you must have built a kernel, is very important).
+Makefile in each directory and be sure to either:
+
+* Supply a KERNELDIR value to make with the path to the directory where you've
+built the kernel, or
+* That you've succesfully run make modules_install for your kernel
 
 [1]: http://www.amazon.com/gp/product/0596005903/ref=as_li_ss_tl?ie=UTF8&tag=bradford07-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596005903
 [2]: https://www.kernel.org/pub/linux/kernel/v3.0/linux-3.0.tar.bz2
