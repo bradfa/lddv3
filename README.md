@@ -15,6 +15,6 @@ to your local copy of the Linux 3.0 source where you have built a kernel (this
 last point, that you must have built a kernel, is very important).
 
 [1]: http://www.amazon.com/gp/product/0596005903/ref=as_li_ss_tl?ie=UTF8&tag=bradford07-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596005903
-[2]: ftp://ftp.kernel.org/pub/linux/kernel/v3.x/linux-3.0.tar.gz
+[2]: https://www.kernel.org/pub/linux/kernel/v3.0/linux-3.0.tar.bz2
 [3]: https://www.virtualbox.org/
 
